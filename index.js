@@ -28,33 +28,33 @@ document.addEventListener("keydown", function (event) {
         moveDodgerRight();
     }
 })
-//Move Dodger Up
-const dodger3 = document.getElementById("dodger")
-function moveDodgerUp() {
-    const bottomNumbers = dodger3.style.bottom.replace("px", "")
-    const bottom = parseInt(bottomNumbers, 10)
+// //Move Dodger Up
+// const dodger3 = document.getElementById("dodger")
+// function moveDodgerUp() {
+//     const bottomNumbers = dodger3.style.bottom.replace("px", "")
+//     const bottom = parseInt(bottomNumbers, 10)
 
-    if (bottom < 380) {
-        dodger3.style.bottom = `${bottom + 1}px`;
-    }
-}
-document.addEventListener("keydown", function (event) {
-    if (event.key === "ArrowUp") {
-        moveDodgerUp();
-    }
-})
-//Move Dodger Down
-const dodger4 = document.getElementById("dodger")
-function moveDodgerDown() {
-    const bottomNumbers = dodger4.style.bottom.replace("px", "")
-    const bottom = parseInt(bottomNumbers, 10)
+//     if (bottom < 380) {
+//         dodger3.style.bottom = `${bottom + 1}px`;
+//     }
+// }
+// document.addEventListener("keydown", function (event) {
+//     if (event.key === "ArrowUp") {
+//         moveDodgerUp();
+//     }
+// })
+// //Move Dodger Down
+// const dodger4 = document.getElementById("dodger")
+// function moveDodgerDown() {
+//     const bottomNumbers = dodger4.style.bottom.replace("px", "")
+//     const bottom = parseInt(bottomNumbers, 10)
 
-    if (bottom > 0) {
-        dodger4.style.bottom = `${bottom - 1}px`;
-    }
-}
-document.addEventListener("keydown", function (event) {
-    if (event.key === "ArrowDown") {
-        moveDodgerDown();
-    }
-})
+//     if (bottom > 0) {
+//         dodger4.style.bottom = `${bottom - 1}px`;
+//     }
+// }
+// document.addEventListener("keydown", function (event) {
+//     if (event.key === "ArrowDown") {
+//         moveDodgerDown();
+//     }
+// })
